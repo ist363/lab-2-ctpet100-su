@@ -1,0 +1,170 @@
+.big-blue{
+  display: flex;
+}
+
+.small-blue{
+  height: 200px;
+  margin: 10px;
+  background-color: #6C9DE7;
+  width: 50%;
+}
+
+.big-red{
+  display: flex;
+}
+
+.small-red{
+  height: 200px;
+  margin: 10px;
+  background-color: #EA715C;
+  width: 25%;
+}
+
+.medium-red{
+  height: 200px;
+  margin: 10px;
+  background-color: #EA715C;
+  width: 50%;
+}
+
+.big-purple{
+  display: flex;
+}
+
+.medium-purple{
+  height: 200px;
+  margin: 10px;
+  background-color: #897FD7;
+  width: 40%;
+}
+
+.small-purple{
+  height: 200px;
+  margin: 10px;
+  background-color: #897FD7;
+  width: 20%;
+}
+
+.big-green{
+  display: flex;
+  justify-content: space-between;
+}
+
+.medium-green{
+  height: 200px;
+  margin: 10px;
+  background-color: #9BB790;
+  width: 33%;
+}
+
+.big-yellow{
+  display: flex;
+  justify-content: space-between;
+}
+
+.medium-yellow{
+  height: 200px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  background-color: #D2A242;
+  width: 25%;
+}
+
+.last-yellow{
+  height: 200px;
+  margin-left: auto;
+  margin-right: 10px;
+  margin-top: 10px;
+  background-color: #D2A242;
+  width: 25%;
+}
+
+
+
+/* START OF PAGE2 CSS */
+
+html{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+header{
+  height: 100px;
+  background-color: #ea715c;
+  display: flex;
+  width: 100%;
+}
+
+footer{
+  height: 200px;
+  background-color: #434343;
+  display: flex;
+  width: 100%;
+}
+
+.container{
+  height: 500px;
+  display: flex;
+  margin: 10px;
+  flex-direction: column, column-reverse;
+}
+
+.content-one{
+  flex-grow: 2;
+  flex-direction: column;
+  margin: 10px;
+  background-color: #fafafa;
+  border-style: solid;
+  border-color: #757575;
+  border-width: 2px;
+}
+
+.content-two{
+  flex-grow: 1;
+  flex-direction: column;
+  margin: 10px;
+  background-color: #fafafa;
+  border-style: solid;
+  border-color: #757575;
+  border-width: 2px;
+}
+
+
+/* START OF PAGE3 CSS */
+html page3.html{
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+}
+
+#page3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 100vh;
+}
+.flex-container{
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+.box{
+  display: flex;
+  margin: 10px;
+  background-color: #00ff00;
+  height: 200px;
+  width: 30%
+}
